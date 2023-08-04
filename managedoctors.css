@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    margin: 2px;
+    padding: 0px;
+    max-width: 100%;
+}
+
+.style-col-2-head {
+    border-right: 1px solid rgb(0, 0, 0);
+    padding: 16px;
+}
+
+.style-col-2-body {
+    border-right: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+    margin-left: 2px;
+}
+
+.nav-text {
+    background-color: #e6e6e6;
+}
+
+div.title-space {
+
+    border-bottom: 1px solid black;
+}
+
+div.style-col-10-head {
+    padding: 16px;
+}
+
+div > h1.title-style {
+    float: right;
+}
+
+.title-style-body {
+    float: left;
+}
+
+.body-over {
+    background-color: #e6e6e6;
+    padding-bottom: 16px;
+}

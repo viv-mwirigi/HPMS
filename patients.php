@@ -1,0 +1,100 @@
+<?php
+
+// echo '<pre>';
+//     echo print_r($_SERVER);
+//     echo '</pre>';
+//     exit;
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/project/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/project/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/project/dashboard.css">
+    <title>Dashboard</title>
+</head>
+<body>
+   <div class="container">
+    
+        <div class="row"style="border:1px solid black;">
+            <div class="col-2"style="border:1px solid black;">HPMS</div>
+            <div class="col-10"><p style="float:right;">HOSPITAL PATIENT MANAGEMENT SYSTEM</p></div>
+        </div>
+        <div class="row">
+            
+             <div class="col-2"style="border:1px solid black;">
+                <div class="row">
+                    <img src="hospital.png"alt="hosp"style="height:250px; width:800px;">
+                </div>
+
+                    <!--<div class="row"style="border:1px solid black;">main navigation</div>
+                    <div class="row"style="border:1px solid black;">Dashboard</div>
+                    <div class="row"style="border:1px solid black;">Doctor</div>
+                    <div class="row"style="border:1px solid black;">Patient</div>
+                    <div class="row"style="border:1px solid black;">Appointment history</div>-->
+               
+                
+            </div>
+            
+                <div class="col-10">
+                    <div class="row"style="border:1px solid black;" >
+                        <div class="row" >
+                            <div class="col-12">
+                                <p style="float:right;">Patient / dashboard </p>
+                            </div>
+                        </div>
+                         <div class="row">
+                            <div class="col-12">
+                              <h3>Patient | dashboard</h3>
+                            </div>
+                            <div class="button-container">
+                                <button class="rectangular-button">
+
+                                <a href="/project/myprofile.php?<?php echo $_SERVER['QUERY_STRING'];?>">View profile</a>
+                                    
+                                </button>
+
+ 
+                           
+                            
+                                <button class="rectangular-button" >
+                                    <a href="/project/patientappointmenthistory.php?<?php echo $_SERVER['QUERY_STRING'];?>">View Appointment History</a>
+                                    
+                                </button>
+                                <button class="rectangular-button" >
+                                    <a href="/project/appointments.php">Book an appointment</a>
+                                    
+                                </button>
+                                <button class="rectangular-button" >
+                                    <a href="/project/showdiagnosis.php?<?php echo $_SERVER['QUERY_STRING'];?>">Show Diagnosis</a>
+                                    
+                                </button>
+                              </div>
+                            
+                         </div>
+                         
+                    </div>
+                    
+                    
+                </div>
+                
+                </div>
+                
+                
+                       
+                    
+                </div>
+    
+    
+    
+            </div>
+        </div>
+        
+   </div>
+</body>
+</html>
